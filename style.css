@@ -321,14 +321,19 @@ img { max-width: 100%; display: block; }
 }
 
 /* ================================================
-   About
+   Hero About (integrated into hero section)
    ================================================ */
-.about-content {
+.hero-about {
   font-size: 1.05rem;
   max-width: 680px;
+  margin-top: 2rem;
+  opacity: 0;
+  transform: translateY(28px);
+  animation: heroIn 0.95s var(--ease-out-expo) forwards;
+  animation-delay: calc(var(--delay) * 0.13s + 0.15s);
 }
 
-.about-content strong {
+.hero-about strong {
   font-weight: 600;
 }
 
