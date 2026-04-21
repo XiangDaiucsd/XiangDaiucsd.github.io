@@ -321,12 +321,12 @@ img { max-width: 100%; display: block; }
 }
 
 /* ================================================
-   Hero About (integrated into hero section)
+   Hero About (below photo and background)
    ================================================ */
 .hero-about {
   font-size: 1.05rem;
   max-width: 680px;
-  margin-top: 2rem;
+  margin-top: 3rem;
   opacity: 0;
   transform: translateY(28px);
   animation: heroIn 0.95s var(--ease-out-expo) forwards;
