@@ -631,7 +631,7 @@ img { max-width: 100%; display: block; }
 
 .experience-card-image {
   flex-shrink: 0;
-  width: 200px;
+  width: 140px;
 }
 
 .experience-card-image img {
