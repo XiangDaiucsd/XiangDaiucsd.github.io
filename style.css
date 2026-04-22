@@ -611,6 +611,51 @@ img { max-width: 100%; display: block; }
   line-height: 1.65;
 }
 
+.inline-link {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-accent);
+  transition: opacity 0.25s var(--ease-smooth);
+}
+
+.inline-link:hover {
+  opacity: 0.8;
+}
+
+.experience-card-with-image {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.experience-card-image {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.experience-card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.experience-card-content {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .experience-card-with-image {
+    flex-direction: column;
+  }
+
+  .experience-card-image {
+    width: 100%;
+  }
+}
+
 /* ================================================
    Skills
    ================================================ */
