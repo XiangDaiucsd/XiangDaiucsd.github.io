@@ -659,10 +659,19 @@ img { max-width: 100%; display: block; }
 /* ================================================
    Interests
    ================================================ */
+.interests-subtitle {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
+  max-width: 100%;
 }
 
 .interest-item {
@@ -670,14 +679,14 @@ img { max-width: 100%; display: block; }
 }
 
 .interest-image {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .interest-image img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid var(--color-border);
   transition: transform 0.3s var(--ease-smooth);
 }
@@ -687,7 +696,7 @@ img { max-width: 100%; display: block; }
 }
 
 .interest-title {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--color-text);
   margin: 0;
@@ -695,19 +704,19 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 1024px) {
   .interests-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 768px) {
   .interests-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 480px) {
   .interests-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
