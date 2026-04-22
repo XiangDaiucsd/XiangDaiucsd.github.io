@@ -659,13 +659,7 @@ img { max-width: 100%; display: block; }
 /* ================================================
    Interests (single boxed row)
    ================================================ */
-.interests-subtitle {
-  font-size: 0.95rem;
-  color: var(--color-text-secondary);
-  text-align: center;
-  margin-bottom: 1rem;
-  font-weight: 400;
-}
+/* subtitle removed — no dedicated styles needed */
 
 .interests-box {
   background: var(--color-bg-alt);
