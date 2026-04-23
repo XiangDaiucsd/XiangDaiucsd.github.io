@@ -280,6 +280,22 @@ img { max-width: 100%; display: block; }
   margin-bottom: 0.2rem;
 }
 
+.hero-role {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--color-text);
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.15rem;
+}
+
+.hero-company {
+  font-size: clamp(0.95rem, 2.3vw, 1.1rem);
+  color: var(--color-accent);
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+}
+
 .hero-affiliation {
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: var(--color-accent);
