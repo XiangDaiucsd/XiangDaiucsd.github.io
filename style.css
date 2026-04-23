@@ -341,8 +341,8 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
 }
 
-.hero-about p + p {
-  margin-top: 1.1rem;
+.hero-about p:first-child {
+  margin-bottom: 1.1rem;
 }
 
 /* ================================================
