@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   hamburger.addEventListener('click', toggleMenu);
-  menuLinks.forEach(link => link.addEventListener('click', closeMenu));
 
   /* ------------------------------------------------
      Scroll-reveal (IntersectionObserver)
