@@ -544,6 +544,65 @@ img { max-width: 100%; display: block; }
 }
 
 /* ================================================
+   News Section
+   ================================================ */
+.news-section {
+  background: linear-gradient(135deg, #f0f4ff 0%, #f5f7ff 100%);
+}
+
+.news-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.06);
+  transition: all 0.35s var(--ease-smooth);
+}
+
+.news-card:hover {
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.1);
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--color-border);
+  align-items: flex-start;
+}
+
+.news-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.news-date {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  white-space: nowrap;
+  padding-top: 0.1rem;
+}
+
+.news-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.news-text strong {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+/* ================================================
    Publications
    ================================================ */
 .pub-item {
