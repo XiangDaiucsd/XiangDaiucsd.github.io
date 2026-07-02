@@ -589,12 +589,15 @@ img { max-width: 100%; display: block; }
   color: var(--color-accent);
   white-space: nowrap;
   padding-top: 0.1rem;
+  flex: 0 0 8rem;
 }
 
 .news-text {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--color-text);
+  flex: 1;
+  min-width: 0;
 }
 
 .news-text strong {
